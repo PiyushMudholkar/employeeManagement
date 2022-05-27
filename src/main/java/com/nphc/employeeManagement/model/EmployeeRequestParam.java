@@ -1,11 +1,5 @@
 package com.nphc.employeeManagement.model;
 
-import javax.validation.constraints.DecimalMin;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
-
-import com.nphc.employeeManagement.validator.StartDate;
-
 public class EmployeeRequestParam {
 
 	private Double minSalary;
