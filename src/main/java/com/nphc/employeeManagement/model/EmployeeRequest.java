@@ -14,12 +14,8 @@ public class EmployeeRequest {
 	private String name;
 	
 	@NotNull(message = "Invalid salary")
-    @DecimalMin(value = "0.0", inclusive = true ,message="Invalid salary")
+        @DecimalMin(value = "0.0", inclusive = true ,message="Invalid salary")
 	private Double salary;
-	
-	//@DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
-	//@JsonFormat(pattern = "yyyy-MM-dd")
-	//private LocalDate startDate;
 	
 	@StartDate(message = "Invalid date")
 	private String startDate;
