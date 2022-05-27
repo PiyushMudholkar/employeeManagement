@@ -12,7 +12,7 @@ if Junits are filing for file please add below in the build path
 
 Add the dir /employeeManagement/src/test/resources in build path
 
-===================================================================================================================
+=====================================================================================
 
 # Testing the application
 
@@ -37,7 +37,7 @@ limit=5 => provide the value to get the n number of elmenets , default value is 
 filter=2001 => this is wildcard filtering , used for filtering in whole data , so any of id,login,name,salary,startDate matches it will return the values. 
 
 
-===================================================================================================================
+======================================================================================
 
 # Get employee by id
 
@@ -57,7 +57,7 @@ Responses
 
 --If employee id not present in DB : 400 Employee not present
 
-===================================================================================================================
+==========================================================================================
 # Create employee
 
 POST http://localhost:8080/users
@@ -78,7 +78,8 @@ Record inserted in DB : 201 Successfully created
 --if login already exists in DB : 400  Employee login not unique
 --if salary not >= 0 : 400  Invalid salary
 --if startDate not in yyyy-MM-dd or dd-MMM-yy format: 400 Invalid date
-===================================================================================================================
+
+===========================================================================================
 
 # Delete employee
 DELETE http://localhost:8080/users/e0002
@@ -93,7 +94,8 @@ Responses
 }
 
 --If employee id is not present in DB  : 400 No such employee
-===================================================================================================================
+
+==========================================================================================
 
 # Update employee
 PUT /PATCH http://localhost:8080/users
@@ -116,7 +118,8 @@ Responses
 }
 
 --If employee id is not present in DB  : 400 No such employee
-===================================================================================================================
+
+==========================================================================================
 
 # CSV file upload
 POST http://localhost:8080/users/upload
@@ -164,4 +167,5 @@ Responses
 {
     "message": "row must contain all 5 records e0002,rwesley,1934.5,2001-11-16"
 }
-===================================================================================================================
+
+==========================================================================================
