@@ -17,6 +17,9 @@ Add the dir /employeeManagement/src/test/resources in build path
 # Testing the application
 
 Once you download the application you can run it in your respective IDE.
+(I have committed files for eclipse , please help to change according to your IDE and the path . 
+ex in the .classpath file please update the repository according to your respective path  )
+run the main calss com.nphc.employeeManagement.EmployeeManagementApplication
 to call the API's you can use postman . below are the API's mentioned.
 
 # API's
