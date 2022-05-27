@@ -134,6 +134,8 @@ salary must be >=0
 id must be unique in the file 
 startDate format supported are yyyy-MM-dd and dd-MMM-yy
 
+sample file is committed at --> employeeManagement/src/test/resources/employee.csv 
+
 If there are validation failure then  no data will be inserted or updated and HTTP 400 response will be sent 
 
 Responses
